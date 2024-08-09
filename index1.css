@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(0, 0, 0);
+}
+p{
+    color:beige;
+}
+h1{
+    color: aliceblue;
+    top: 100;
+}
+h2{
+    color:aliceblue;
+}
+.button-thing{
+    color: aliceblue;
+    background-color: black;
+}

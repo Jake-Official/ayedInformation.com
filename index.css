@@ -1,0 +1,41 @@
+.shitty-audio {
+    top: 45px;
+    color: coral;
+}
+body {
+    background-image: url(data/images/background-img.png);
+    background-size: 800px;
+    margin: 8px;
+    display: block;
+}
+a.a-text{
+    color: rgb(0, 255, 242);
+    font-size: large;
+    margin-top: 19px;
+    border-top: 53px;
+    padding-left: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: rgb(0, 128, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: px;
+    font-size: large;
+}
+.another-text-like-what {
+    cursor: progress;
+}
+.br-line{
+    color: aqua;
+    background-color: aqua;
+}
+li{
+    color: coral;
+}
+audio::-webkit-media-controls {
+    display: none;
+}
+.text-github{
+    color: white;
+    background-color: rgb(3, 47, 108);
+}
