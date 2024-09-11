@@ -3,29 +3,10 @@
     <head>
         <title>AYED WEB SITE</title>
         
-        <meta property="og:title" content="ayedInfomation">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.ayedInfomation.com/MainPage">
-        <meta property="og:locale" content="en_US">
-        <link property="og:url" content="https://www.ayedInfomation.com/MainPage" />
-        <script>
-           // Get the URL from the browser without query parameters and fragments
-           const urlPath = window.location.origin + window.location.pathname;
-        
-           // Check for the meta og:url tag
-           const ogURL = document.querySelector('meta[property="og:url"]');
-        
-           // Add the meta og:url tag if not found
-           if (!ogURL) {
-             const meta = document.createElement('meta');
-             meta.setAttribute('property', 'og:url');
-             meta.setAttribute('content', urlPath);
-             document.head.appendChild(meta);
-           } else {
-             // If the og:url meta tag already exists, update its content
-             ogURL.setAttribute('content', urlPath);
-           }
-        </script>
+        <meta property="og:title" content="ayedInfomation"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.ayedInfomation.com/MainPage"/>
+        <meta property="og:locale" content="en_US"/>
         <link rel="stylesheet" href="index.css">
         <audio play autoplay loop src="data/music/synthloop.mp3" controls>
             <link rel="stylesheet" href="index1.html">
