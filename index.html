@@ -8,6 +8,20 @@
         <meta property="og:url" content="http://www.ayedInfomation.com/MainPage">
         <meta property="og:locale" content="en_US">
         <link property="og:url" content="http://www.ayedInfomation.com/MainPage" />
+        <!-- Make sure to add the script tags if you don't already have them in your header -->
+        <script>
+           //  Get the URL from the browser
+           const urlPath = window.location.href;
+           //  Check for the meta og:url tag
+           const ogURL = document.querySelector('meta[property="og:url"]');
+           //  Add the meta og:url tag if not found
+           if (!ogURL) {
+             const meta = document.createElement('meta');
+             meta.setAttribute('property', 'og:url');
+             meta.setAttribute('content', urlPath);
+             document.head.appendChild(meta);
+           }
+        </script>
         <link rel="stylesheet" href="index.css">
         <audio play autoplay loop src="data/music/synthloop.mp3" controls>
             <link rel="stylesheet" href="index1.html">
